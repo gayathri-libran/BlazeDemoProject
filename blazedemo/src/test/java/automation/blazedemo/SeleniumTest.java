@@ -28,7 +28,6 @@ public class SeleniumTest extends Base{
 	@BeforeTest
 	public void initialize() throws IOException {
 		driver =initializeDriver();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	
 	
@@ -39,7 +38,6 @@ public class SeleniumTest extends Base{
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		findFlight();
 		selectFlight();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		BookTicket bkTkt = new BookTicket(driver);
 		bkTkt.getName().sendKeys(name);
 		bkTkt.getAddress().sendKeys(address);
@@ -56,7 +54,6 @@ public class SeleniumTest extends Base{
 		Select selectCardtype = new Select(driver.findElement(By.id("cardType")));
 		selectCardtype.selectByValue(cardType);
 		bkTkt.purchase().click();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		Confirmationpage conFpage = new Confirmationpage(driver);
 		String confirmationText= conFpage.getConfirmationpage().getText();
 		
