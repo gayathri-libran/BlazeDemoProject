@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14568" started-at="2020-09-02T01:00:03 IST" finished-at="2020-09-02T01:00:18 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14568" started-at="2020-09-02T01:00:03 IST" finished-at="2020-09-02T01:00:18 IST">
+      <class name="automation.blazedemo.SeleniumTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:automation.blazedemo.SeleniumTest@1f7030a6]" name="initialize" is-config="true" duration-ms="3895" started-at="2020-09-02T01:00:03 IST" finished-at="2020-09-02T01:00:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="browserAutomation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:automation.blazedemo.SeleniumTest@1f7030a6]" name="browserAutomation" duration-ms="10630" started-at="2020-09-02T01:00:07 IST" data-provider="getData" finished-at="2020-09-02T01:00:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bengaluru]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[KA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[456788]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[amex]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[24553433534]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2012]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Mike]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAutomation -->
+      </class> <!-- automation.blazedemo.SeleniumTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
